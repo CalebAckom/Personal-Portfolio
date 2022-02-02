@@ -8,6 +8,9 @@
     <!---Unicons-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
+    <!---Swiper CSS--->
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>Portfolio Website</title>
 </head>
@@ -871,8 +874,61 @@
                 </div>
             </div>
         </section>
+
+        <!---Portfolio--->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">My Works</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Portfolio 1 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/images/Cup of P.png" alt="" class="portfolio__image">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Cup of P</h3>
+                            <p class="portfolio__description">A LifeStyle Blog for a client, with stories on
+                                 Wellness (Sports, Sex & Relationship, ...), Life & Loving, DIYs, and many more
+                            </p>
+                            <a href="http://www.cupofp.com/" target="_blank" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-circle-right button button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio 2 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/images/Music Portfolio.jpg" alt="" class="portfolio__image">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Studio Recording Session</h3>
+                            <p class="portfolio__description">A studio recording session with my AJ & Friends</p>
+                            <a href="https://youtu.be/7CIsDTt1bcg" target="_blank" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-circle-right button button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Swiper Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Swiper Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
     </main>
 
+    <!---Swiper JS--->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
 
     <!---Main JS--->
     <script src="/assets/js/script.js"></script>
