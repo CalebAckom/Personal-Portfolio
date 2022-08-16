@@ -397,7 +397,8 @@ img {
 
 /* +++++ ABOUT +++++ */
 .about__img {
-    width: 200px;
+    /* width: 100px; */
+    height: 100%;
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
@@ -499,7 +500,7 @@ img {
     background-color: var(--first-color);
 }
 
-/* Skills - Full Stack Block */
+/* Skills - Development Block */
 .skills__html {
     width: 70%;
 }
@@ -509,11 +510,11 @@ img {
 }
 
 .skills__javascript {
-    width: 50%;
+    width: 35%;
 }
 
 .skills__python {
-    width: 60%;
+    width: 40%;
 }
 
 /* CMS Block */
@@ -564,7 +565,7 @@ img {
 }
 
 .skills__aws {
-    width: 55%;
+    width: 80%;
 }
 
 .skills__git {
@@ -572,11 +573,11 @@ img {
 }
 
 .skills__docker {
-    width: 60%;
+    width: 75%;
 }
 
 .skills__jenkins {
-    width: 50%;
+    width: 80%;
 }
 
 .skills__grafana {
@@ -588,6 +589,10 @@ img {
 }
 
 .skills__sonarqube {
+    width: 80%;
+}
+
+.skills__k8s {
     width: 50%;
 }
 
