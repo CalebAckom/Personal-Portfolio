@@ -517,6 +517,14 @@ img {
     width: 40%;
 }
 
+.skills__node {
+    width: 25%;
+}
+
+.skills__react {
+    width: 25%;
+}
+
 /* CMS Block */
 .skills__wordpress {
     width: 90%;
@@ -576,7 +584,7 @@ img {
     width: 75%;
 }
 
-.skills__jenkins {
+.skills__cicd {
     width: 80%;
 }
 
@@ -594,6 +602,10 @@ img {
 
 .skills__k8s {
     width: 50%;
+}
+
+.skills__ansible {
+    width: 30%;
 }
 
 .skills__close .skills__list {
